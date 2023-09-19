@@ -1,0 +1,124 @@
+body {
+    color: #FBFBFB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.navDDHS {
+    background-color: #393939;
+    align-items: center;
+    height: 60px;
+    font-weight: bold;
+}
+
+.nav-text {
+    padding-top: 20px;
+}
+
+a:hover {
+    color: #FBFBFB;
+}
+
+.nav-active {
+    color: #FBFBFB;
+    font-weight: bold;
+}
+
+.nav-inactive {
+    color: #7a7a7a
+}
+
+a {
+    text-decoration: none;
+    color: #7a7a7a;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo:hover {
+    margin-top: 40px;
+    transition: transform .3s;
+    transform: scale(1.75);
+}
+
+.index_body {
+    margin-top: 200px;
+}
+
+.p1 {
+    font-size: 80px;
+}
+
+.p2 {
+    font-size: 40px;
+    text-justify: auto;
+}
+
+.p3 {
+    font-size: 25px;
+    color: #6f6f6f
+}
+
+.borderkamuna {
+    border:1px solid white;
+}
+
+.centerCell {
+    background-color: #262626;
+    height: 300px;
+    width: 400px;
+    margin-left: 200px;
+    margin-left: 28px;
+}
+
+.acssLogo {
+    width: 80px;
+    height: 80px;
+    margin-left: 45px;
+    margin-top: -3px;
+}
+
+.label{
+    font-size: 12px;
+}
+
+.w3-input{
+    height: 20px;
+    width: 100%;
+    background-color: #626262;
+    color: white;
+    font-size: 14px;
+}
+
+::placeholder{
+    color: rgb(204, 204, 204);
+    font-size: 12px;
+}
+
+.recordsTable {
+    width: 95%;
+    text-align: center;
+    overflow:hidden;
+    border-radius: 10px;
+}
+
+.recordsHead {
+    background-color: #393939;
+    color: #00AD65;
+    font-weight: bold;
+}
+
+.recordsBody {
+    background-color: #222222;
+    color: #1f1f1f;
+}
+.btnB{
+    background-color: red;
+    border-color: transparent;
+    color: green;
+}
